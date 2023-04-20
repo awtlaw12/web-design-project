@@ -1,0 +1,182 @@
+body {
+	font-family: Arial, sans-serif;
+    font-size: large;
+    color: #ffffff;
+	position: relative;
+    background-image: url("images/pexels-johannes-plenio-1632788.jpg");
+    background-size: 100% 100%;  
+    background-position: right bottom, left top;   
+}
+
+header, nav, main, footer {
+	display: ruby-base;
+	position: relative;
+}
+ 
+form{
+	position: relative;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+header {
+	background-color:#998484;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+    font-style: italic;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background-color: #4b4646;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+nav a {
+	display: block;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+main {
+	margin: 20px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 24px;
+	color: #ddc9c9;
+	margin-top: auto;
+	max-width: 24px;
+}
+
+ul {
+	margin: flex;
+	padding: flex;
+	list-style: none;
+}
+
+footer  {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #998484;
+    color: white;
+    text-align: center;
+  }
+
+div.gallery {
+    margin: 5px;
+	margin-top: auto;
+	margin-bottom: auto;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+	height: max-content;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: max-content;
+  }
+  
+  div.desc {
+    padding: 15px;
+	height: max-content;
+	margin-bottom: auto;
+	margin-top: auto;
+    text-align: center;
+  }
+
+  * {
+	box-sizing: border-box;
+  }
+  
+  
+  .container {
+	position: relative;
+  }
+  
+  .mySlides {
+	display: none;
+  }
+  
+  .cursor {
+	cursor: pointer;
+  }
+  
+  .prev,
+  .next {
+	cursor: pointer;
+	position: absolute;
+	top: 40%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+  }
+  
+  .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover,
+  .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+ 
+  .caption-container {
+	text-align: center;
+	background-color: #222;
+	padding: 2px 16px;
+	color: white;
+  }
+  
+  .row:after {
+	content: "";
+	display: table;
+	position: center;
+	clear: both;
+  }
+  
+  .column {
+	float: left;
+	width: 16.66%;
+  }
+  
+  .demo {
+	opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+	opacity: 1;
+  }

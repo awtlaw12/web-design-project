@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+  <title>Book Appointment</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="script" type="text/js" href="script.js">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+		<h1>BENSON AUTO ELECTRICALS</h1>
+	</header>
+    <nav>
+		<ul>
+			<li><a href="main.html"><i class='fa fa-home' style='color: rgb(255, 255, 255)'> Home</i>
+            </a></li>
+            <li><a href="bookappointment.html"> <i class='fas fa-book' style='color: white'></i> Book Appointment</a></li>
+            <li><a href="enquiries.html"> 
+                <i class='fa fa-search' style='color: white'></i> Enquiries</a></li>
+			<li><a href="aboutus.html"> <i class='fa fa-user' style='color: white'></i>  About Us</a></li>
+			<li><a href="contactus.html"> 
+                <i class='fa fa-phone-square' style='color: white'></i>  Contact Us</a></li>
+		</ul>
+	</nav>
+    <section>
+        <h2 class="h2">Book Appointment</h2>
+        <p>
+            <form class="form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+              
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+              
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+              
+                <label for="appointment-type">Appointment Type:</label>
+                <select id="appointment-type" name="appointment-type">
+                  <option value="routine-service">Routine Service</option>
+                  <option value="repair">Repair</option>
+                  <option value="inspection">Inspection</option>
+                </select><br><br>
+              
+                <label for="vehicle-make">Vehicle Make:</label>
+                <input type="text" id="vehicle-make" name="vehicle-make" required><br><br>
+              
+                <label for="vehicle-model">Vehicle Model:</label>
+                <input type="text" id="vehicle-model" name="vehicle-model" required><br><br>
+              
+                <label for="vehicle-year">Vehicle Year:</label>
+                <input type="number" id="vehicle-year" name="vehicle-year" required><br><br>
+              
+                <label for="vehicle-details">Vehicle Details:</label>
+                <textarea id="vehicle-details" name="vehicle-details"></textarea><br><br>
+              
+                <label for="preferred-date">Preferred Date:</label>
+                <input type="date" id="preferred-date" name="preferred-date" required><br><br>
+              
+                <label for="preferred-time">Preferred Time:</label>
+                <input type="time" id="preferred-time" name="preferred-time" required><br><br>
+              
+                <label for="additional-comments">Additional Comments:</label>
+                <textarea id="additional-comments" name="additional-comments"></textarea><br><br>
+              
+                <label for="preferred-contact-method">Preferred Contact Method:</label>
+                <select id="preferred-contact-method" name="preferred-contact-method">
+                  <option value="email">Email</option>
+                  <option value="phone">Phone</option>
+                </select><br><br>
+              
+                <label for="payment-information">Payment Information:</label>
+                <input type="text" id="payment-information" name="payment-information"><br><br>
+              
+                <input type="submit" value="Submit">
+              </form>
+              
+            </p>
+        </section>
+
+        <footer>
+            <p>&copy; 2023 BENSON AUTO ELECTRICALS. All rights reserved.</p>
+            <p>
+                <i class='fa fa-instagram' style='color: white'></i>
+                <i class='fa fa-twitter' style='color: white'></i>
+                <i class='fa fa-facebook' style='color: white'></i>
+    
+            </p>
+        </footer>
+        <script src="script.js"></script>
+</body>
+</html>
